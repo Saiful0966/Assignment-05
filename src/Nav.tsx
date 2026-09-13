@@ -2,7 +2,7 @@ import logo from'./assets/logo-text.png'
 
 function Nav() {
     return(
-        <nav className='h-20  flex items-center justify-between border-b border-gray-100'>
+        <nav className=' sticky top-0 z-50 bg-white h-20  flex items-center justify-between border-b border-gray-100 w-full'>
                
                {/* Navbar Logo  */}
             <img src={logo} alt=""  className='w-32'/>
